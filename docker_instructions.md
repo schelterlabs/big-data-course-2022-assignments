@@ -1,12 +1,20 @@
-# Setup Instructions for Assignment Notebooks
+# How to Run the Assignment Notebooks
 
 To run the assignment notebooks for this course, we have prepared a docker image which contains the libraries needed for completing the assignments.
 
-## Prerequisites
+To get started, first clone this repository into your local machine.
+
+```
+git clone https://github.com/schelterlabs/big-data-course-2022-assignments.git
+```
+
+Next, follow the steps below.
+
+## Download Docker for Desktop
 
 Download and Install [Docker for Desktop](https://www.docker.com/products/docker-desktop)
 
-## Setup
+## Run Docker
 
 There are two ways you can make use of this docker image:
 
