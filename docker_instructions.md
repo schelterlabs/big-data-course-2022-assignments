@@ -55,10 +55,11 @@ docker run -p 8888:8888 -v $PWD:/home/jovyan/work -e DOCKER_STACKS_JUPYTER_CMD=l
 
 **Step 4:**  Access notebooks
 
-To access Jupyter go to `localhost:8888` from your browser. 
+To access Jupyter go to `http://localhost:8888/lab?token=REPLACE_ME_WITH_YOUR_TOKEN` from your browser. 
 
-**NOTE:** Make sure you copy the notebook token from the terminal in order to access the notebooks.
+**NOTE:** Make sure you copy the notebook token from the terminal in order to access the notebooks, or directly click on the link displayed in the terminal. Under MacOS, you find the link as follows: 
 
+![token](jupyter-links.png)
 
 
 ### Option 2: Building Image from Dockerfile
