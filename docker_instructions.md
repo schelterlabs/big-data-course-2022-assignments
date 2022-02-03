@@ -46,6 +46,13 @@ docker run -p 8888:8888 -v $(pwd):/home/jovyan/work  -e JUPYTER_ENABLE_LAB=yes m
 
 ```
 
+If you have an error that JUPYTER_ENABLE_LAB is ignored, then use this alternative command to run the image:
+
+```
+
+docker run -p 8888:8888 -v $PWD:/home/jovyan/work -e DOCKER_STACKS_JUPYTER_CMD=lab mtasnim/jupyter-pyspark-duckdb
+```
+
 **Step 4:**  Access notebooks
 
 To access Jupyter go to `localhost:8888` from your browser. 
