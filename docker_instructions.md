@@ -87,3 +87,9 @@ Building the image for the first time should take a while.
 **Step 3:**  Run the newly built image
 
 To run the image and access the notebooks follow Step 2, 3 and 4 from Option 1 above.
+
+
+
+## Troubleshooting
+
+In Assignment 2, Spark might randomly crash if it doesn't have enough memory available. In case you encounter issues like that, we suggest increasing the amount of memory available to the docker image to 4gb or more. If you are using docker-for-windows or docker-for-mac, you can easily increase it from the Whale 🐳 icon in the task bar, then go to Preferences -> Resources. 
