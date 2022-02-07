@@ -92,4 +92,34 @@ To run the image and access the notebooks follow Step 2, 3 and 4 from Option 1 a
 
 ## Troubleshooting
 
+### Memory Issues: Recommended RAM Limit
+
 In Assignment 2, Spark might randomly crash if it doesn't have enough memory available. In case you encounter issues like that, we suggest increasing the amount of memory available to the docker image to 4gb or more. If you are using docker-for-windows or docker-for-mac, you can easily increase it from the Whale 🐳 icon in the task bar, then go to Preferences -> Resources. 
+
+### Space Issues: Cleaning up unused images & volumes to free up space
+
+When using Docker for a while it's possible to run out of reserved diskspace, which gets filled with unused docker images and data volumes. 
+
+One solution is to delete unused Docker images and volumes locally.
+
+If you have Docker containers actively running, first stop them
+
+```
+docker container stop $(docker container ls -aq)
+```
+
+Then remove all dangling (unattached) volumes, networks and images.
+
+```
+docker volume rm $(docker volume ls -qf dangling=true)
+```
+
+```
+docker system prune
+```
+
+```
+docker image prune -a
+```
+
+This should have reclaimed back enough diskspace to resume operations.
