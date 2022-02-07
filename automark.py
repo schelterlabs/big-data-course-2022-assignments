@@ -225,7 +225,6 @@ def get_progress():
 
     print('-' * 70)
     print('| {:67}|'.format(data['name']))
-    print('| {:67}|'.format(data['mail']))
     print('-' * 70)
     for k, v in data['progress'].items():
         print('| {:50}| {:15}|'.format(k, v))
