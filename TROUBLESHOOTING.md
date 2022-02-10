@@ -1,3 +1,4 @@
+## Known problems and solutions
 
 * ### Problem: `docker run` crashes  
   * __Seen on__: Windows  
@@ -28,3 +29,25 @@
 
  * ### Problem: Docker error `invalid reference format: repository name must be lowercase`
    * __Solution__: Follow the hints outlined in this [stackoverflow post](https://stackoverflow.com/questions/45682010/docker-invalid-reference-format) 
+
+
+## Manual installation of the environment without Docker under Windows
+
+We strongly recommend everyone to use the Docker image, in order to ensure that there are no version conflicts and that your code can interact correctly with the grading server. If you cannot get Docker to work under Windows, there is also the possibility of manually installing the programming environment without Docker. Please follow the steps outlined below:
+
+To run the assignments without Docker, you will need the follow dependencies:
+
+  * __OpenJDK 11__ – [download page](https://jdk.java.net/archive/) and [installation instructions](https://stackoverflow.com/questions/52511778/how-to-install-openjdk-11-on-windows)
+  * __Python 3.9 with Anaconda__, [download and installation instructions](https://docs.anaconda.com/anaconda/install/windows/)
+ 
+Additionally, you will need the following Python libraries:
+ 
+ * __Jupyterlab__, which you can install using the following conda command `conda install -c conda-forge jupyterlab`
+ * __DuckDB__, which you can install with `pip install duckdb==0.3.2`
+ * __PySpark (version 3.2.0)__ - Follow the [installation instructions](https://sparkbyexamples.com/pyspark/how-to-install-and-run-pyspark-on-windows/) here. 
+Since you would already have OpenJDK 11 and Anaconda installed, skip to the section “PySpark Install on Windows”. _Note that the instructions in the linked webpage are given for PySpark version 3.0.0, please adapt them accordingly for downloading and installing PySpark version 3.2.0_
+ 
+
+
+
+
