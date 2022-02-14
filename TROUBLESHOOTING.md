@@ -45,7 +45,7 @@ Additionally, you will need the following Python libraries:
  * __Jupyterlab__, which you can install using the following conda command `conda install -c conda-forge jupyterlab`
  * __DuckDB__, which you can install with `pip install duckdb==0.3.2`
  * __PySpark (version 3.2.0)__ - Follow the [installation instructions](https://sparkbyexamples.com/pyspark/how-to-install-and-run-pyspark-on-windows/) here. 
-Since you would already have OpenJDK 11 and Anaconda installed, skip to the section “PySpark Install on Windows”. 
+Since you would already have OpenJDK 11 and Anaconda installed, skip to the section “PySpark Install on Windows”. If you are still having problems on Windows after these steps, step 5 from [this guide for using PySpark from Jupyter in Windows](https://bigdata-madesimple.com/guide-to-install-spark-and-use-pyspark-from-jupyter-in-windows/) might help.
 
 _Note that the instructions in the linked webpage are given for PySpark version 3.0.0, please adapt them accordingly for downloading and installing PySpark version 3.2.0. To find version 3.2.0 in the [Spark Downloads](https://spark.apache.org/downloads.html) page, navigate to [Spark release archives](https://archive.apache.org/dist/spark/) and download the file `spark-3.2.0-bin-hadoop3.2.tgz`_
  
