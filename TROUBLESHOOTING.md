@@ -31,6 +31,11 @@
    * __Solution__: Follow the hints outlined in this [stackoverflow post](https://stackoverflow.com/questions/45682010/docker-invalid-reference-format) 
 
 
+ * ### Problem: Webbrowser halts when connecting to docker 
+   * __Seen on__: MacOs (M1)
+   * __Solution__: Settings (MAC) -> 'Complete DiskAccess' -> and Select Docker, then restart Docker
+
+
 ## Manual installation of the environment without Docker under Windows
 
 We strongly recommend everyone to use the Docker image, in order to ensure that there are no version conflicts and that your code can interact correctly with the grading server. If you cannot get Docker to work under Windows, there is also the possibility of manually installing the programming environment without Docker. Please follow the steps outlined below:
