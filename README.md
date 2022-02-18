@@ -22,4 +22,15 @@ Finally, start the Docker container according to the [instructions](docker_instr
 
 
 #### Assignment 2
-We will soon make the materials for the assignments available here.
+We have now made [Assignment 2](Assignment2.ipynb) available.
+
+
+Again, in order to start to work on it, go the folder where you checked out the assignment repository previously:
+
+`cd big-data-course-2022-assignments`
+
+and use the following command to update the repository:
+
+`git pull`
+
+Finally, start the Docker container according to the [instructions](docker_instructions.md) given previously and open the _Assignment2.ipynb_ notebook in Jupyter.
