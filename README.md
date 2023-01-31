@@ -8,7 +8,7 @@ You can find a guide on [how to setup your environment in our Docker instruction
 
 #### Assignment 1
 
-We have now made [Assignment 1](Assignment1.ipynb) available, which is due on Feb 22nd at 6pm.
+We have now made [Assignment 1](Assignment1.ipynb) available.
 
 In order to start to work on it, go the folder where you checked out the assignment repository previously:
 
