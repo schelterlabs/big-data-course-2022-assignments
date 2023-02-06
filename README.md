@@ -1,4 +1,4 @@
-### Big Data Course 2022
+### Big Data Course
 
 #### Setup Test
 
