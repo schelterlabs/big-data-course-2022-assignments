@@ -6,6 +6,7 @@ In the first week, your task is to install Docker, download the Docker image we 
 
 You can find a guide on [how to setup your environment in our Docker instructions](docker_instructions.md). If you have difficulties with the installation, please consult the [troubleshooting guide](TROUBLESHOOTING.md), where we collect known problems and solutions. Consult your TA if you can't get the environment to run on your machine.
 
+<!---
 #### Assignment 1
 
 We have now made [Assignment 1](Assignment1.ipynb) available.
@@ -34,3 +35,4 @@ and use the following command to update the repository:
 `git pull`
 
 Finally, start the Docker container according to the [instructions](docker_instructions.md) given previously and open the _Assignment2.ipynb_ notebook in Jupyter.
+--->
